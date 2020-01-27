@@ -18,7 +18,42 @@ body {
 
 h1 {
     font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    color: black;
+}
 
+#company {
+    font-family: 'yellowtail', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+}
+
+#logo-header {
+    width: 300px;
+    margin-top: 10px;
+}
+
+#logo-header span {
+    display: block;
+}
+
+#logo-header img {
+    float: left;
+    margin-right: 10px;
+}
+
+#byline, #motto {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: abel, sans-serif;
+    color: #999;
+}
+
+main {
+    margin: 30px 0;
 }
 
 header, main, footer {
@@ -26,9 +61,13 @@ header, main, footer {
 
 }
 
-header {
+#header-content {
     display: flex;
     justify-content: space-between;
+}
+
+#share-header{
+    margin-top: 15px;
 }
 
 header div {
@@ -102,4 +141,19 @@ footer p {
 
 .strike {
     text-decoration: line-through;
+}
+
+#article-footer {
+    position: relative;
+}
+
+#author img {
+    float: left;
+    margin-right: 15px;
+}
+
+button {
+    position: absolute;
+    right:0;
+    top:0;
 }
