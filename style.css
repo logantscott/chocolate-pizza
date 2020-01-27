@@ -48,11 +48,13 @@ ul {
     font-size: 24px;
     display: flex;
     flex-wrap: wrap;
+    list-style-type: square;
 }
 
-li{
+li {
     width: 50%;
     line-height: 25px;
+    cursor: pointer;
 }
 
 
@@ -67,4 +69,7 @@ footer hr {
 footer img {
     position: relative;
     top: -25px;
+}
+.strike {
+    text-decoration: line-through;
 }
