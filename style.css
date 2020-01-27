@@ -14,11 +14,25 @@ body {
 body {
     width: 900px;
     margin: 0 auto;
-    
+    color:#666;
 }
 
 header, main, footer {
     width: 900px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div {
+    display: inline-block;
+}
+
+#byline {
+    display: flex;
+    justify-content: space-between;
 }
 
 #recipe {
@@ -34,20 +48,37 @@ header, main, footer {
 
 hr {
     background-image: url("./img/hr-img.png");
-    height: 7px;
+    height: 10px;
     border: none;
 }
 
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 footer {
     text-align: center;
 }
+
+#footer-hr {
+    display: flex;
+    margin-bottom:20px;
+}
+
 footer hr {
     background-image: none;
-    border-top: 1px solid #333;
+    border-top: 1px solid #CCC;
     height: 1px;
+    display: inline-block;
+    flex-grow: 1;
+    margin: 0;
+    margin-top: 16px;
 }
 footer img {
-    position: relative;
-    top: -25px;
+    margin: 0 10px;
+}
+
+footer p {
+    margin: 0;
+    color: #ccc;
 }
